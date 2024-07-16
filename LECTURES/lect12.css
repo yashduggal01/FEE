@@ -1,0 +1,30 @@
+body{
+    border: 2px solid black;
+    margin:0px;
+    padding:0px;
+}
+div{
+    border: 3px solid red;
+    margin:25px 15px 5px;
+    padding:20px 10px 5px;
+    color: brown;
+    font-size: 30px;
+}
+p{
+    text-align:justify;
+    color:cornflowerblue;
+}
+a{
+    text-decoration: line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+h3{
+    text-transform:uppercase;
+    text-indent: 20px;
+    word-spacing:10px;
+}
+h4{
+    text-shadow: 5px 5px 5px red;
+    color:transparent;
+}
