@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transition</title>
+</head>
+<body>
+<style>
+    section{
+        height:300px;
+        width:300px;
+        background-color:aqua;
+        border:2px solid violet;
+         transition: 10s;
+        transition-duration:5s;
+        transition-property:background-color;
+        transition-delay:1s;
+        transition: 2s;
+    }
+    section:hover{
+        border-radius:50%;
+        background-color: brown;
+    }
+    article{
+        margin:20px;
+        border:2px solid black;
+    }
+    article div{
+        height:50px;
+        width:50px;
+        background-color: black;
+        padding:5px;
+        margin:15px;
+        opacity: 0.5;
+    }
+    #div1{
+        transition-timing-function: linear;
+    }
+    #div2{
+        transition-timing-function: ease;
+    }
+    #div3{
+        transition-timing-function: ease-out;
+    }
+    #div4{
+        transition-timing-function: ease-in-out;
+    }
+    #div5{
+        transition-timing-function: ease-out;
+    }
+    div:hover{
+    /* margin-left:900px; */
+        transition-duration: 5s ease .2s;
+        
+        position: relative;
+        left: 1000px;
+        opacity: 1;
+    /* padding-left: 900px; */
+
+
+
+    }
+
+</style>
+<section></section> 
+<article>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+</article>   
+</body>
+</html>

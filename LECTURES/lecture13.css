@@ -1,0 +1,14 @@
+#container{
+    background-color: dodgerblue;
+    border:2px solid black;
+    height:300px;
+    width:300px;
+    display:flex;
+}
+.items{
+    border:2px solid brown;
+    background-color: blanchedalmond;
+    height:50px;
+    width:50px;
+    align-content: end;
+}

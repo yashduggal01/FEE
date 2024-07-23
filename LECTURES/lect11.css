@@ -6,7 +6,12 @@ ol > li {
     background-color: yellow;
 }
 h3+p{
-    border-top: 2px solid blue;
+    border-top: 2px solid rgb(216, 20, 30);
+    text-align: justify;
+    color: deepskyblue;
+    font-size: 25px;
+    font-style: italic;
 }
 div~p {
-    background-color: brown;}
+
+    color:brown;}
